@@ -1,0 +1,24 @@
+{
+    "name": "Engineering Team Space",
+    "type": "meeting",
+    "access_control": "members-only",
+    "visibility": "members-only",
+    "identification": "verified",
+    "host_rights": "admins-only",
+    "apps": [
+        {"type": "virtual_participant", "config": {"automated_session_recording_enabled": true}}, 
+        {"type": "audit_log", "config": {"audit_logs_enabled": true}}, 
+        {"type": "screensharing", "config": {"screensharing_enabled": true}}, 
+        {"type": "recording", "config": {"automated_session_recording_enabled": true}}, 
+        {"type": "filesharing", "config": {"document_viewer": "pdf", "filesharing_enabled": true, "document_editor_enabled": true, "original_file_download_allowed": true}}, 
+        {"type": "chat", "config": {"chat_enabled": true, "chat_logs_enabled": false}}, 
+        {"type": "videochat", "config": {"start_muted": false, "videochat_prompt": true, "videochat_enabled": true, "p2p_videochat_enabled": false, "default_videochat_mode": "sidebar", "start_with_videochat_on": true, "videochat_enhancements_enabled": true, "start_with_fullscreen_videochat": false, "anonymous_users_can_share_camera": true, "default_videochat_fullscreen_mode": "grid"}}
+    ],
+    "custom_landing_page": "https://github.com/aogz/landing-page",
+    "extensions": [
+        "https://github.com/aogz/startpage2025",
+        "https://github.com/aogz/gh-real-changes",
+        "https://github.com/aogz/gh-projects-points-extension"
+    ]
+  }
+  
